@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
-import About from './views/About.vue'
+import Landing from './views/Landing.vue'
 
 Vue.use(Router)
 
@@ -9,13 +8,18 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      name: 'landing',
+      component: Landing
     },
-    {
-      path: '/about',
-      name: 'about',
-      component: About
-    }
+    // {
+    //   path: '/about',
+    //   name: 'about',
+    //   component: About
+    // },
+    // {
+    //   path: '/landing',
+    //   name: 'landing',
+    //   component: Landing
+    // }
   ]
 })
