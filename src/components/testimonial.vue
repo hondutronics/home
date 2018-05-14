@@ -12,6 +12,12 @@
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
     </div>
+    <div class="imagenes">
+      <img src="../assets/lego1.jpg" alt="" class="imagen peque">
+      <img src="../assets/lego2.jpg" alt="" class="imagen">
+      <img src="../assets/lego3.jpg" alt="" class="imagen peque">
+    </div>
+    <p class="nombre">Andrea Mejía</p>
   </div>
 </template>
 
@@ -71,9 +77,31 @@ export default {
     font-size: 2rem;
   }
 
-  .imagen{
-    border-radius: 50%;
-    border: 1.5px solid white;
+  .imagenes{
+    margin-top: 3rem;
+    text-align: center;
+
+    .imagen{
+      border-radius: 50%;
+      border: 5px solid #f1f8f5;
+      width: 55px;
+      // box-shadow: 1px 114px 290px 19px rgba(0,0,0,0.48);
+      margin: 0px 15px;
+    }
+
+    .peque{
+      width: 45px;
+      filter: blur(.5px);
+    }
+
+  }
+
+  .nombre{
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 1.9rem;
+    color: #2f4563;
+    font-weight: bold;
   }
 }
 </style>
