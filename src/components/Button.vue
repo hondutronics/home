@@ -1,7 +1,7 @@
 <template lang="html">
-  <div class="boton">
+  <!-- <div class="boton"> -->
     <button type="button" name="button" class="btn btn--green">{{msg}}</button>
-  </div>
+  <!-- </div> -->
 </template>
 
 <script>
@@ -89,7 +89,7 @@ export default {
   &:link,
   &:visited{
     font-size: 12px;
-    color: #2998ff;
+    // color: #2998ff;
     display: inline-block;
     text-decoration: none;
     border-bottom: 1px solid #2998ff;
@@ -98,7 +98,7 @@ export default {
   }
 
   &:hover{
-    background-color: #2998ff;
+    // background-color: #2998ff;
     color: white;
     box-shadow: 0 1rem 2rem rgba(black, .15);
     transform: translateY(-2px);

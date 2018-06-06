@@ -27,7 +27,7 @@
             <div class="card__cta">
               <div class="card__price-box">
                 <p class="card__price-only">Por tan solo</p>
-                <p class="card__price-value">L. 2,155</p>
+                <p class="card__price-value">$ 177</p>
               </div>
               <a href="#popup" class="btn btn--white">Comprar</a>
               <a href="#popup" class="btn btn-2 btn--white">Personalizar</a>
@@ -59,7 +59,7 @@
               <div class="card__cta">
                 <div class="card__price-box">
                   <p class="card__price-only">Por tan solo</p>
-                  <p class="card__price-value">L. 3,465</p>
+                  <p class="card__price-value">$ 282</p>
                 </div>
                 <a href="#popup" class="btn btn--white">Comprar</a>
                 <a href="#popup" class="btn btn-2 btn--white">Personalizar</a>
@@ -92,7 +92,7 @@
               <div class="card__cta">
                 <div class="card__price-box">
                   <p class="card__price-only">Por tan solo</p>
-                  <p class="card__price-value">L. 4,633</p>
+                  <p class="card__price-value">$ 378</p>
                 </div>
                 <a href="#popup" class="btn btn--white">Comprar</a>
                 <a href="#popup" class="btn btn-2 btn--white">Personalizar</a>
@@ -167,6 +167,7 @@ $color-tertiary-dark: #5643fa;
   position: relative;
   height: 52rem;
   z-index: 10;
+  border: 0px solid white !important;
 
   &__side{
     height: 52rem;
@@ -284,9 +285,15 @@ $color-tertiary-dark: #5643fa;
 
     ul{
       list-style: none;
-      width: 80%;
-      margin: 0 auto;
-
+      width: 100%;
+      // margin: 0 auto;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      padding-left: 0;
+      padding-right: 0;
+      transform: translate(-50%, 0%);
+      // text-align: center;
       li{
         text-align: center;
         font-size: 1.5rem;
